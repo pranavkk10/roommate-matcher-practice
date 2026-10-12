@@ -85,6 +85,10 @@ function App() {
             <p className="score">
               {name}, you and {match.name} have an 88% compatibility score!
             </p>
+
+            <button type="button" onClick={() => setMatch(null)}>
+                Try Again
+            </button>
           </section>
         )}
       </section>
