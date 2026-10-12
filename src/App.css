@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e8f1ff, #f8f5ff);
+  color: #1f2937;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 48px 20px;
+}
+
+.card {
+  width: 100%;
+  max-width: 620px;
+  height: fit-content;
+  background: white;
+  padding: 36px;
+  border-radius: 18px;
+  box-shadow: 0 12px 30px rgba(31, 41, 55, 0.15);
+}
+
+h1 {
+  margin: 0;
+  color: #3b5bdb;
+  font-size: 2.2rem;
+}
+
+.intro {
+  margin-bottom: 28px;
+  color: #5b6473;
+}
+
+form {
+  display: grid;
+  gap: 16px;
+}
+
+label {
+  display: grid;
+  gap: 7px;
+  font-weight: bold;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+button {
+  margin-top: 8px;
+  padding: 13px;
+  border: none;
+  border-radius: 8px;
+  background: #3b5bdb;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2948c7;
+}
+
+.result {
+  margin-top: 28px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #eef2ff;
+  border-left: 5px solid #3b5bdb;
+}
+
+.result h2 {
+  margin-top: 0;
+}
+
+.result p {
+  margin: 8px 0;
+}
+
+.score {
+  margin-top: 16px !important;
+  font-weight: bold;
+  color: #2948c7;
+}
